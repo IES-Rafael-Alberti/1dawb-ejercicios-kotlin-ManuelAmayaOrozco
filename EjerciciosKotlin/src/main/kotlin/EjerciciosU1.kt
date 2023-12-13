@@ -46,3 +46,12 @@ fun ejercicio1_18() {
     val capnom = nom.split(' ').joinToString(" ") { it.replaceFirstChar(Char::uppercaseChar) }
     println(capnom)
 }
+
+fun ejercicio1_20() {
+    print("Dime un número de telefono con el siguiente formato (+34-teléfono-2prefijos): ")
+    val tel = readln()
+    var newtel = tel.split("-")
+    newtel = listOf(newtel[1])
+    val newtelstring = newtel.joinToString()
+    print("El teléfono sin prefijo y extensión es: $newtelstring")
+}
