@@ -1,3 +1,5 @@
+import java.text.DecimalFormat
+
 fun ejercicio1_4() {
     print("Dime la temperatura en grados Celsius: ")
     val tempc = readln().toFloat()
@@ -103,5 +105,9 @@ fun ejercicio1_27() {
     print("Dime la cantidad de productos que hay: ")
     val quant = readln().toInt()
     val total = quant * price
-    print("$product: $quant unidades x ${"%.2f".format(price)}€ = ${"%.2f".format(total)}")
+    val priceformat = DecimalFormat("000000.00")
+    val quantformat = DecimalFormat("000")
+    val totalformat = DecimalFormat("00000000.00")
+
+    print("$product: ${quantformat.format(quant)} unidades x ${priceformat.format(price)}€ = ${totalformat.format(total)}€")
 }
