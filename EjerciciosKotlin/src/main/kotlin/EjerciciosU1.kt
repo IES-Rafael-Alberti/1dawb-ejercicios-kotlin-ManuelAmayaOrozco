@@ -55,3 +55,53 @@ fun ejercicio1_20() {
     val newtelstring = newtel.joinToString()
     print("El teléfono sin prefijo y extensión es: $newtelstring")
 }
+
+fun ejercicio1_21() {
+    print("Dime una frase: ")
+    var frase = readln()
+    frase = frase.reversed()
+    print(frase)
+}
+
+fun ejercicio1_22() {
+    print("Dime una frase: ")
+    val frase = readln()
+    print("Dime una vocal en minúscula: ")
+    val vocal = readln()
+    val mayvocal = vocal.uppercase()
+    val frasefinal = frase.split(' ').joinToString(" ") { it.replace(vocal,mayvocal) }
+    print(frasefinal)
+}
+
+fun ejercicio1_24() {
+    print("Dime el precio de un producto, usando dos decimales: ")
+    val precio = readln()
+    val precsep = precio.split('.')
+    print("Son ${precsep[0]} euros y ${precsep[1]} céntimos.")
+}
+
+fun ejercicio1_25() {
+    print("Dime tu fecha de nacimiento con el siguiente formato (día/mes/año): ")
+    val date = readln()
+    val datesep = date.split('/')
+    println("Día: ${datesep[0]}")
+    println("Mes: ${datesep[1]}")
+    println("Año: ${datesep[2]}")
+}
+
+fun ejercicio1_26() {
+    print("Dime los productos de la cesta separados por comas: ")
+    val basket = readln()
+    print(basket.replace(",","\n"))
+}
+
+fun ejercicio1_27() {
+    print("Dime el nombre de un producto: ")
+    val product = readln()
+    print("Dime el precio del producto: ")
+    val price = readln().toFloat()
+    print("Dime la cantidad de productos que hay: ")
+    val quant = readln().toInt()
+    val total = quant * price
+    print("$product: $quant unidades x ${"%.2f".format(price)}€ = ${"%.2f".format(total)}")
+}
