@@ -116,7 +116,7 @@ fun main(args: Array<String>) {
     Escribir un programa que pida al usuario dos números y muestre por pantalla su división. Si el
     divisor es cero el programa debe mostrar un error.
      */
-    //ejercicio2_cond_3()
+    ejercicio2_cond_3()
 
     /**
     Ejercicio 2.1.6
