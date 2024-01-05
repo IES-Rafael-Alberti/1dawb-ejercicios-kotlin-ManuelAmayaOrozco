@@ -103,6 +103,8 @@ fun main(args: Array<String>) {
      */
     //ejercicio1_27()
 
+    //UNIDAD 2 (CONDICIONALES)
+
     /**
     Ejercicio 2.1.2
     Escribir un programa que almacene la cadena de caracteres 'contraseña' en una variable,
@@ -116,7 +118,7 @@ fun main(args: Array<String>) {
     Escribir un programa que pida al usuario dos números y muestre por pantalla su división. Si el
     divisor es cero el programa debe mostrar un error.
      */
-    ejercicio2_cond_3()
+    //ejercicio2_cond_3()
 
     /**
     Ejercicio 2.1.6
@@ -161,4 +163,116 @@ fun main(args: Array<String>) {
     que lleva.
      */
     //ejercicio2_cond_10()
+
+    //UNIDAD 2 (ITERATIVAS)
+
+    /**
+    Ejercicio 2.2.2
+    Escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años que
+    ha cumplido (desde 1 hasta su edad).
+     */
+    //ejercicio2_iter_2()
+
+    /**
+    Ejercicio 2.2.4
+    Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla la
+    cuenta atrás desde ese número hasta cero separados por comas.
+     */
+    //ejercicio2_iter_4()
+
+    /**
+    Ejercicio 2.2.6
+    Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo
+    rectángulo como el de más abajo, de altura el número introducido.
+
+     *
+     **
+     ***
+     ****
+     *****
+     */
+    //ejercicio2_iter_6()
+
+    /**
+    Ejercicio 2.2.7
+    Escribir un programa que muestre por pantalla la tabla de multiplicar del 1 al 10.
+     */
+    //ejercicio2_iter_7()
+
+    /**
+    Ejercicio 2.2.8
+    Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo
+    rectángulo como el de más abajo.
+
+    1
+    3 1
+    5 3 1
+    7 5 3 1
+    9 7 5 3 1
+     */
+    //ejercicio2_iter_8()
+
+    /**
+    Ejercicio 2.2.13
+    Escribir un programa que muestre el eco de todo lo que el usuario introduzca hasta que el
+    usuario escriba “salir” que terminará.
+     */
+    //ejercicio2_iter_13()
+
+    /**
+    Ejercicio 2.2.15
+    Leer números enteros de teclado, hasta que el usuario ingrese el 0. Finalmente, mostrar la
+    sumatoria de todos los números positivos ingresados.
+     */
+    //ejercicio2_iter_15()
+
+    /**
+    Ejercicio 2.2.18
+    Solicitar al usuario que ingrese números enteros positivos y, por cada uno, imprimir la suma de
+    los dígitos que lo componen. La condición de corte es que se ingrese el número -1. Al finalizar,
+    mostrar cuántos de los números ingresados por el usuario fueron números pares.
+     */
+    //ejercicio2_iter_18()
+
+    /**
+    Ejercicio 2.2.19
+    Mostrar un menú con tres opciones: 1- comenzar programa, 2- imprimir listado, 3-finalizar
+    programa. A continuación, el usuario debe poder seleccionar una opción (1, 2 ó 3). Si elige una
+    opción incorrecta, informarle del error. El menú se debe volver a mostrar luego de ejecutada cada
+    opción, permitiendo volver a elegir. Si elige las opciones 1 ó 2 se imprimirá un texto. Si elige la
+    opción 3, se interrumpirá la impresión del menú y el programa finalizará.
+     */
+    //ejercicio2_iter_19()
+
+    /**
+    Ejercicio 2.2.25
+    Solicitar al usuario que ingrese una frase y luego informar cuál fue la palabra más larga (en caso
+    de haber más de una, mostrar la primera) y cuántas palabras había. Precondición: se tomará
+    como separador de palabras al carácter “ “ (espacio), ya sea uno o más.
+     */
+    //ejercicio2_iter_25()
+
+    //UNIDAD 2 (CAPTURA DE EXCEPCIONES)
+
+    /**
+    Ejercicio 2.3.2
+    Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla todos
+    los números impares desde 1 hasta ese número separados por comas.
+     */
+    //ejercicio2_exce_2()
+
+    /**
+    Ejercicio 2.3.3
+    Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla la
+    cuenta atrás desde ese número hasta cero separados por comas. Deberá solicitar el número
+    hasta introducir uno correcto.
+     */
+    //ejercicio2_exce_3()
+
+    /**
+    Ejercicio 2.3.4
+    Escribir un programa que pida al usuario un número entero, si la entrada no es correcta, mostrará
+    el mensaje "La entrada no es correcta" y lanzará la excepción capturada.
+     */
+    //ejercicio2_exce_4()
 }
