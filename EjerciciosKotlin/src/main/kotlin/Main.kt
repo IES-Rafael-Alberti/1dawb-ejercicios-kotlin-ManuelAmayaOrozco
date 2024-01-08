@@ -275,4 +275,49 @@ fun main(args: Array<String>) {
     el mensaje "La entrada no es correcta" y lanzará la excepción capturada.
      */
     //ejercicio2_exce_4()
+
+    //UNIDAD 3 (LISTAS Y TUPLAS)
+
+    /**
+    Ejercicio 3.1.4
+    Escribir un programa que pregunte al usuario los números ganadores de la lotería primitiva, los
+    almacene en una lista y los muestre por pantalla ordenados de menor a mayor.
+     */
+    //ejercicio3_listu_4()
+
+    /**
+    Ejercicio 3.1.6
+    Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas,
+    Física, Química, Historia y Lengua) en una lista, pregunte al usuario la nota que ha sacado en
+    cada asignatura y elimine de la lista las asignaturas aprobadas. Al final el programa debe
+    mostrar por pantalla las asignaturas que el usuario tiene que repetir.
+     */
+    //ejercicio3_listu_6()
+
+    /**
+    Ejercicio 3.1.8
+    Escribir un programa que pida al usuario una palabra y muestre por pantalla si es un palíndromo.
+     */
+    //ejercicio3_listu_8()
+
+    /**
+    Ejercicio 3.1.9
+    Escribir un programa que pida al usuario una palabra y muestre por pantalla el número de veces
+    que contiene cada vocal.
+     */
+    //ejercicio3_listu_9()
+
+    /**
+    Ejercicio 3.1.10
+    Escribir un programa que almacene en una lista los siguientes precios: '50, 75, 46, 22, 80,
+    65, 8' y muestre por pantalla el menor y el mayor de los precios.
+     */
+    //ejercicio3_listu_10()
+
+    /**
+    Ejercicio 3.1.13
+    Escribir un programa que pregunte por una muestra de números, separados por comas, los
+    guarde en una lista y muestre por pantalla su media y desviación típica.
+     */
+    //ejercicio3_listu_13()
 }
