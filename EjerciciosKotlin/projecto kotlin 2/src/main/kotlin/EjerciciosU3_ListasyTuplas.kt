@@ -194,7 +194,7 @@ fun calcMed(num_tup: MutableList<Int>): Float {
     return med.toFloat()
 }
 
-fun calcTypDev(num_tup: MutableList<Int>, med: Int): Float {
+fun calcTypDev(num_tup: MutableList<Int>, med: Float): Float {
     var sumsquared = 0
     for (i in num_tup) {
         sumsquared += (i * i)
